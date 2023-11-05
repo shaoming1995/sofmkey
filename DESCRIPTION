@@ -1,9 +1,8 @@
 Package: key
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.23.11.6
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("MingShao", "HuiGong", "shaoming0928@163.com","gh2017@yeah.net", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
