@@ -13,7 +13,7 @@ help502<-function(activate_group){
         result4 <-try(library(keyring))
         result5 <-try(library(blastula))
         result6 <-try(library(rmarkdown))
-        if(!require("rmarkdown",quietly=T))
+        if(!require("sofmClump",quietly=T))
           devtools::install_github("shaoming1995/sofmClump")
         maile<-c("sofm_teacher@163.com","sofm1@163.com","sofm2@163.com","sofmcs@163.com")
         id_temp<-paste0(Sys.info()["nodename"],"-",round(runif(1,min = 1,max = 100000),0))
